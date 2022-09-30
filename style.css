@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+
+}
+
+
+body {
+
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cccccc;
+}
+
+.header1 {
+  display: flex;
+  background-color: #c5e4ff;
+  font-size: 1 rem;
+  text-align: center;
+}
+
+.logo1 {
+  width: 820px;
+  margin-left: -40px;
+  margin-top: 5px;
+}
+
+nav {
+  width: 100%;
+  margin-left: auto;
+  background-color: #99ccff;
+  padding: 10px 20px;
+  display: inline;
+
+}
+
+
+.login {
+  width: 320px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.link1 {
+
+  padding-left: 10%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.link1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAF0F6;
+}
+
+.link1 li {
+  float: left;
+}
+
+.link1 li a {
+  display: block;
+  color: #33475B;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+.container1 {
+  margin-top: 30px;
+  margin-left: 300px;
+  width: 100%;
+  display: flexbox;
+}
+
+
+.sectionarticel1 {
+  margin-top: 200px;
+  margin-left: -200px;
+  display: flexbox;
+}
+
+.sectionarticel2 {
+  margin-top: -120px;
+  margin-left: 150px;
+  display: flexbox;
+}
+
+
+
+main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #99ffcc;
+}
+
+
+.aside {
+  align-self: auto;
+  width: 500px;
+  height: 500px;
+  background-color: #ff9999;
+  font-size: 1 rem;
+  text-align: center;
+
+}
+
+.headlineaside {
+  margin-top: 30px;
+}
+
+
+.footer {
+  width: 1024px;
+  text-align: center;
+  background-color: #ffff99;
+}
+
+.containerlogin {
+  margin-top: 90px;
+  margin-left: 70px;
+  height: 100px;
+  display: flex;
+}
+
+.fieldsettable {
+  margin-top: 80px;
+
+}
+
+.headerlogin {
+  padding-left: 10px;
+  margin-top: -5px;
+  margin-left: 160px;
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+.form1 {
+  margin-top: 100px;
+  margin-left: -80px;
+  text-align: center;
+  display: flex;
+  border-radius: 3px;
+}
+
+.resetbutton {
+  background-color: red;
+  border-width: thin;
+  border-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin: 1px;
+}
+
+.signbutton {
+  background-color: #006b20;
+  border-width: thin;
+  border-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin: 1px;
+}
